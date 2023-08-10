@@ -1,0 +1,27 @@
+.input-span {
+  @apply text-sm text-gray-light mx-[10px];
+}
+
+.my-info {
+  @apply mb-[15px];
+}
+
+.my-info-title {
+  @apply font-bold text-[18px];
+}
+
+.my-data {
+  @apply w-[190px] inline-block;
+}
+
+.my-input {
+  @apply border border-gray-light rounded-[6px] text-sm p-[3px];
+}
+
+.history-container {
+  @apply h-[300px] shadow-[3px_3px_10px_0px_rgba(0,0,0,0.15)] rounded-[12px] bg-[white] px-[20px] pt-[20px] pb-[50px];
+}
+
+.history-title {
+  @apply border-b-[3px] border-primary font-bold w-[100px] mb-[10px];
+}
