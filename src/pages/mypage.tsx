@@ -160,6 +160,9 @@ export default function MyPage() {
                         if (item.status === 'APPROVED') {
                           status = '승인'
                         }
+                        if (item.status === 'REJECTED') {
+                          status = '반려'
+                        }
                         return (
                           <div
                             className="flex justify-around border border-gray-light rounded-[6px] p-[5px] mb-[15px] text-sm mr-[15px]"
@@ -189,6 +192,9 @@ export default function MyPage() {
                         }
                         if (item.status === 'APPROVED') {
                           status = '승인'
+                        }
+                        if (item.status === 'REJECTED') {
+                          status = '반려'
                         }
                         return (
                           <div
